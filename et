@@ -1,0 +1,64 @@
+[33mcommit 4f46e8a565d0b96faab9cd9e2a1e3188e4836a6e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: carlosavalo <100812490+carlosavalo@users.noreply.github.com>
+Date:   Fri Jun 24 09:09:29 2022 -0500
+
+    first homework.2
+
+[1mdiff --git a/02-JS-I/homework/homework.js b/02-JS-I/homework/homework.js[m
+[1mindex 9b31309..ca465a5 100644[m
+[1m--- a/02-JS-I/homework/homework.js[m
+[1m+++ b/02-JS-I/homework/homework.js[m
+[36m@@ -28,39 +28,47 @@[m [mconst nuevoModulo = 21 % 5 === 1;[m
+ function devolverString(str) {[m
+   // "Return" la string provista: str[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  return str;[m
+ }[m
+ [m
+ function suma(x, y) {[m
+   // "x" e "y" son números[m
+   // Suma "x" e "y" juntos y devuelve el valor[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  var suma= x+y[m
+[32m+[m[32m  return suma;[m
+ }[m
+ [m
+ function resta(x, y) {[m
+   // Resta "y" de "x" y devuelve el valor[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  var resta=x-y;[m
+[32m+[m[32m  return resta;[m
+ }[m
+ [m
+ function multiplica(x, y) {[m
+   // Multiplica "x" por "y" y devuelve el valor[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  var multiplica=x*y;[m
+[32m+[m[32m  return multiplica;[m
+ }[m
+ [m
+ function divide(x, y) {[m
+   // Divide "x" entre "y" y devuelve el valor[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  var divide=x*y;[m
+[32m+[m[32m  return divide;[m
+ }[m
+ [m
+ function sonIguales(x, y) {[m
+   // Devuelve "true" si "x" e "y" son iguales[m
+   // De lo contrario, devuelve "false"[m
+   // Tu código:[m
+[31m-  [m
+[32m+[m[32m  if (x==y){[m
+[32m+[m[32m    return true[m
+[32m+[m[32m  }[m
+[32m+[m[32m  else[m[41m [m
+[32m+[m[32m  {return false}[m
+ }[m
+ [m
+ function tienenMismaLongitud(str1, str2) {[m
